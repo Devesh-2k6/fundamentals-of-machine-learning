@@ -65,7 +65,7 @@ def print_tree(node, indent=""):
             print_tree(subtree, indent + "  ")
 
 # Load dataset
-data = pd.read_csv("C:\\Users\\sri\\Desktop\\New folder\\play_tennis.csv")
+data = pd.read_csv(C:\Users\DEVESH\Documents\Dataset")
 
 # Split into train and test
 train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
