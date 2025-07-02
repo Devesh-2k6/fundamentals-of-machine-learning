@@ -11,7 +11,7 @@ from sklearn.metrics import (
 )
 
 # Load dataset
-data = pd.read_csv("C:\\Users\\sri\\Desktop\\New folder\\CarPrice.csv")
+data = pd.read_csv("C:\Users\DEVESH\Documents\Dataset\New folder")
 
 # Drop unnecessary columns
 data.drop(["CarName"], axis=1, inplace=True)
