@@ -7,7 +7,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Load dataset
-iris = pd.read_csv("C:\\Users\\sri\\Desktop\\iris.csv")
+iris = pd.read_csv("C:\Users\DEVESH\Documents\Dataset")
 print(iris.head()) 
 print()
 print(iris.describe())
